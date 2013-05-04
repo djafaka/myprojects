@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Coclico Connector Core Ui
+Bundle-SymbolicName: fr.francetelecom.coclico.ui;singleton:=true
+Bundle-Version: 3.9.0.qualifier
+Bundle-Activator: fr.francetelecom.coclico.ui.UIPlugin
+Bundle-Vendor: FranceTelecom
+Require-Bundle: fr.francetelecom.coclico.core,
+ org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.forms;bundle-version="3.5.2",
+ org.eclipse.mylyn.commons.ui;bundle-version="[3.4.0,4.0.0)",
+ org.eclipse.mylyn.tasks.core;bundle-version="[3.4.2,4.0.0)",
+ org.eclipse.mylyn.tasks.ui;bundle-version="[3.4.3,4.0.0)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: fr.francetelecom.coclico.ui
+Import-Package: org.eclipse.mylyn.commons.core
