@@ -52,7 +52,7 @@
 		<dependency>
 			<groupId>org.apache.wink</groupId>
 			<artifactId>wink-server</artifactId>
-			<version>1.2.1-incubating</version>
+			<version>1.4</version>
 			<exclusions>
 				<exclusion>
 					<artifactId>stax-api</artifactId>
